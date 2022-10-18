@@ -1,0 +1,18 @@
+---
+title: renv-git-submodules
+output: github_document
+---
+
+With renv 0.16.0, [hadley/emo](https://github.com/hadley/emo) is installed as `"Source": "git"` because it uses submodules. (However, the submodules are used in `data-raw/` so they aren't needed for correct package installation.)
+
+```{r}
+getOption("repos")
+
+str(renv:::renv_json_read("renv.lock")$Packages$emo)
+```
+
+The problem that arises is that I can't deploy content that uses emo installed with renv 0.16.0 to Connect because `rsconnect::writeManifest()` can't determine the repository URL.
+
+```{r}
+rsconnect::writeManifest(appPrimaryDoc = "example.Rmd")
+```
