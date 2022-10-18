@@ -1,0 +1,210 @@
+PackratFormat: 1.4
+PackratVersion: 0.8.1
+RVersion: 4.2.1
+Repos: gadenbuie=https://gadenbuie.r-universe.dev,
+    mm=https://milesmcbain.r-universe.dev,
+    CRAN=https://cran.rstudio.com
+
+Package: R6
+Source: CRAN
+Version: 2.5.1
+Hash: 54378e523d0281f8d38c379484a3b7b5
+
+Package: assertthat
+Source: CRAN
+Version: 0.2.1
+Hash: 622be49032fe50bd42e96aaef613e209
+
+Package: base64enc
+Source: CRAN
+Version: 0.1-3
+Hash: c590d29e555926af053055e23ee79efb
+
+Package: bslib
+Source: CRAN
+Version: 0.4.0
+Hash: 91925af6f76f8d5669d067d615a97c38
+Requires: cachem, htmltools, jquerylib, jsonlite, memoise, rlang, sass
+
+Package: cachem
+Source: CRAN
+Version: 1.0.6
+Hash: e1d5d860b02caa2f56f038b3b8259160
+Requires: fastmap, rlang
+
+Package: cpp11
+Source: CRAN
+Version: 0.4.2
+Hash: fb849cc15463edbe2435b0ef5d110294
+
+Package: crayon
+Source: CRAN
+Version: 1.5.2
+Hash: 7904f3b18063550691940a88a588807e
+
+Package: digest
+Source: CRAN
+Version: 0.6.29
+Hash: 071cc93357d7c2a5812d5cf348ce3272
+
+Package: emo
+Source: github
+Version: 0.0.0.9000
+Hash: d62fe32e0436740dbf231bcb706ce3e1
+Requires: assertthat, crayon, rlang, glue, lubridate, magrittr, purrr,
+    stringr
+GithubRepo: emo
+GithubUsername: hadley
+GithubRef: 3f03b11491ce3d6fc5601e210927eff73bf8e350
+GithubSha1: 3f03b11491ce3d6fc5601e210927eff73bf8e350
+RemoteHost: api.github.com
+RemoteRepo: emo
+RemoteUsername: hadley
+RemoteRef: 3f03b11491ce3d6fc5601e210927eff73bf8e350
+RemoteSha: 3f03b11491ce3d6fc5601e210927eff73bf8e350
+
+Package: evaluate
+Source: CRAN
+Version: 0.16
+Hash: 2baa89aa0132f784c79dfb8cb48447bc
+
+Package: fastmap
+Source: CRAN
+Version: 1.1.0
+Hash: e4d212b14d40b91c791c0b9d3b6ffd99
+
+Package: fs
+Source: CRAN
+Version: 1.5.2
+Hash: ee8c2601709c5937c283cdcb2625fdd9
+
+Package: generics
+Source: CRAN
+Version: 0.1.2
+Hash: 96be9b5a7c595867ef4424d605adf60e
+
+Package: glue
+Source: CRAN
+Version: 1.6.2
+Hash: 830d10f9f46e05aadfe458d2d31849e7
+
+Package: highr
+Source: CRAN
+Version: 0.9
+Hash: 375daf47b5970a62560496bb8c6b996e
+Requires: xfun
+
+Package: htmltools
+Source: CRAN
+Version: 0.5.3
+Hash: 4515f29ee2fde0ba82e76a1f67f49e3a
+Requires: base64enc, fastmap, rlang, digest
+
+Package: jquerylib
+Source: CRAN
+Version: 0.1.4
+Hash: 338eb4374296b76bdee1e463c810113d
+Requires: htmltools
+
+Package: jsonlite
+Source: CRAN
+Version: 1.8.2
+Hash: 335a31bcb11c326e66252c198ffd86af
+
+Package: knitr
+Source: CRAN
+Version: 1.40
+Hash: 48a11444b7982cc6eb64c6be2bd25eae
+Requires: evaluate, highr, stringr, xfun, yaml
+
+Package: lubridate
+Source: CRAN
+Version: 1.8.0
+Hash: 3b484acb2e8bc9371b56a4e15b44570d
+Requires: cpp11, generics
+
+Package: magrittr
+Source: CRAN
+Version: 2.0.3
+Hash: b323532bfd2fe948d0eb19afa866cb12
+
+Package: memoise
+Source: CRAN
+Version: 2.0.1
+Hash: fa0687ee20196d8aa4e2d724cb0f7199
+Requires: cachem, rlang
+
+Package: packrat
+Source: CRAN
+Version: 0.8.1
+Hash: 502257b0c1ef1db0274ea5ecdec3c9ab
+
+Package: purrr
+Source: CRAN
+Version: 0.3.4
+Hash: fb4c0edca61826ca0b5b33c828a7b276
+Requires: magrittr, rlang
+
+Package: rappdirs
+Source: CRAN
+Version: 0.3.3
+Hash: fd602edfd7dbf365642e35dd9cc97958
+
+Package: renv
+Source: github
+Version: 0.15.5-26
+Hash: 2be901769c42576c987f5ae9d6f232ac
+GithubRepo: renv
+GithubUsername: rstudio
+GithubRef: 0.15.5-26
+GithubSha1: 183839b9757fd68d0468102e0df2acd09885bd0a
+RemoteHost: api.github.com
+RemoteRepo: renv
+RemoteUsername: rstudio
+RemoteRef: 0.15.5-26
+RemoteSha: 183839b9757fd68d0468102e0df2acd09885bd0a
+
+Package: rlang
+Source: CRAN
+Version: 1.0.6
+Hash: 1333b0d296f816fdae193bdfdb094223
+
+Package: rmarkdown
+Source: CRAN
+Version: 2.16
+Hash: 2c8f55463f45c550c831c8f7b06adb0a
+Requires: bslib, evaluate, htmltools, jquerylib, jsonlite, knitr,
+    stringr, xfun, yaml, tinytex
+
+Package: sass
+Source: https://gadenbuie.r-universe.dev
+Version: 0.4.2.9000
+Hash: d76615ca8abdc64e46c14d906b38b49a
+Requires: htmltools, rlang, R6, fs, rappdirs
+
+Package: stringi
+Source: CRAN
+Version: 1.7.8
+Hash: bb07248d1e4497a0e5d2ff621544bb08
+
+Package: stringr
+Source: CRAN
+Version: 1.4.1
+Hash: f5aeb8f81ad30d4d014092cdae97b707
+Requires: glue, magrittr, stringi
+
+Package: tinytex
+Source: CRAN
+Version: 0.42
+Hash: 5739f57d16067b113b2bcf11edf30213
+Requires: xfun
+
+Package: xfun
+Source: CRAN
+Version: 0.33
+Hash: dfb978433ae7a4b2070dc48793893cf4
+
+Package: yaml
+Source: CRAN
+Version: 2.3.5
+Hash: 006ce2bd0f10a964ab59745f81434037

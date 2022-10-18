@@ -1,0 +1,8 @@
+---
+title: Example
+output: html_document
+---
+
+# An Emoji
+
+`r emo::ji("smiling_face_with_halo")`
