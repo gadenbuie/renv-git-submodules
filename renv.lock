@@ -3,14 +3,6 @@
     "Version": "4.2.1",
     "Repositories": [
       {
-        "Name": "gadenbuie",
-        "URL": "https://gadenbuie.r-universe.dev"
-      },
-      {
-        "Name": "mm",
-        "URL": "https://milesmcbain.r-universe.dev"
-      },
-      {
         "Name": "CRAN",
         "URL": "https://cran.rstudio.com"
       }
@@ -398,15 +390,10 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "0.15.5-26",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteUsername": "rstudio",
-      "RemoteRepo": "renv",
-      "RemoteRef": "0.15.5-26",
-      "RemoteSha": "183839b9757fd68d0468102e0df2acd09885bd0a",
-      "Hash": "47f1712c423fc11f6f5bb3d94c3184fe",
+      "Version": "0.16.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c9e8442ab69bc21c9697ecf856c1e6c7",
       "Requirements": []
     },
     "rlang": {
